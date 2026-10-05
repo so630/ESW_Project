@@ -6,7 +6,7 @@ from pathlib import Path
 
 import lgpio
 
-from mpu6500 import MPU6500
+from imu_calibration import CalibratedMPU as MPU6500
 from gps_reader import GPSReader
 
 
